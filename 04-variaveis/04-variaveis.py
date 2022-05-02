@@ -32,4 +32,9 @@ print(z)
 
 # Captação de input do usuário
 nome = input("Olá, qual o seu nome?\n")
-print("Olá, %s" % nome)
+print("Olá,", nome)
+
+#Competição
+# Crie um software que você entre com dois numero aleatórios e apresente em tela a subração desses 2 numeros
+# Crie um software que calcule a área (com numero aleatorios)
+
