@@ -1,20 +1,22 @@
 # Código utilizado no livro Aprenda Python Básico - Rápido e Fácil de entender, de Felipe Galvão
 # Mais informações sobre o livro: http://felipegalvao.com.br/livros
-
 # Capítulo 4: Variáveis
-
 # Definição das primeiras variáveis
 a = 3
 b = 7
 print(a+b)
+print((a+b)+(a+b))
+print((a-b)*(a+b))
+print((a-b)*(a+b))
 
 # Mudança de tipo de uma variável
-a = "Agora uma string"
+a = "Agora eu entendi tudo"
+b = "Graças ao meu querido professor"
 print(a)
-
-# Definindo uma variável com base no valor atual de outra
-b = a
 print(b)
+# Definindo uma variável com base no valor atual de outra
+c = a+b
+print(c)
 
 # Definição de múltiplas variáveis com valores iguais
 x = y = z = 10
