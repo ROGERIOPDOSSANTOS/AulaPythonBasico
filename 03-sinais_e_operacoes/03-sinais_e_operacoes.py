@@ -1,7 +1,4 @@
-# Código utilizado no livro Aprenda Python Básico - Rápido e Fácil de entender, de Felipe Galvão
-# Mais informações sobre o livro: http://felipegalvao.com.br/livros
-
-# Capítulo 3: Sinais e Operações
+# Sinais e Operações
 
 # Demonstração dos operadores matemáticos básicos
 print(4 + 5)

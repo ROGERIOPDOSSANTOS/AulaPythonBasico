@@ -1,32 +1,44 @@
-# Capítulo: Variáveis # Definição das primeiras variáveis
+# Variáveis 
+#  Definição das primeiras variáveis e constantes
+
 a = 3
 b = 7
 print(a+b)
 print((a+b)+(a+b))
 print((a-b)*(a+b))
 print((a-b)*(a+b))
+
 # Mudança de tipo de uma variável
 a = "Agora eu entendi tudo"
 b = "Graças ao meu querido professor"
 print(a)
 print(b)
+
 # Definindo uma variável com base no valor atual de outra
 c = a+b
 print(c)
+
 # Definição de múltiplas variáveis com valores iguais
 x = y = z = 10
 print(x)
 print(y)
 print(z)
+
 # Definição de múltiplas variáveis com valores diferentes
 x, y, z = 10, 20, 30
 print(x)
 print(y)
 print(z)
+
 # Captação de input do usuário
 nome = input("Olá, qual o seu nome?")
 print("Olá,", nome)
+
+# Captação de input do valor
 valor = float(input("Digite um Valor"))
+print(valor)
+
+#Fazendo um calculo e usando condições lógicas de Sequencia
 Soma = valor*5.5
 print(Soma)
 if Soma > 7:
@@ -34,6 +46,7 @@ if Soma > 7:
 else:
    print("Valor Menor que 7")
 print("O Valor é,", Soma)
+
 #Competição
 # Crie um software que você entre com dois numero aleatórios e apresente em tela a subração desses 2 numeros
 #N1= int(input("Digite o 1 numero?"))
