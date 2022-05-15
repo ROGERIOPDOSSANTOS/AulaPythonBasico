@@ -1,7 +1,4 @@
-# Código utilizado no livro Aprenda Python Básico - Rápido e Fácil de entender, de Felipe Galvão
-# Mais informações sobre o livro: http://felipegalvao.com.br/livros
-
-# Capítulo 5: Strings
+# Capítulo Strings
 
 # Definindo as primeiras strings
 string1 = "Oi Python"
