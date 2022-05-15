@@ -1,6 +1,5 @@
 # Variáveis 
 #  Definição das primeiras variáveis e constantes
-
 a = 3
 b = 7
 c= (a+b)-(b+a)
@@ -35,19 +34,27 @@ print(z)
 nome = input("Olá, qual o seu nome?")
 print("Olá,", nome)
 
-# Captação de input do valor
-valor = float(input("Digite um Valor"))
-print(valor)
-
-#Fazendo um calculo e usando condições lógicas de Sequencia
-Soma = valor*5.5
-print(Soma)
-if Soma > 7:
-  print("Valor Maior que 7")
+# Captação de input com idade
+idade = float(input("Digite sua idade"))
+if idade < 12:
+    print('crianca')
+elif idade < 18:
+    print('adolescente')
+elif idade < 60:
+    print('adulto')
 else:
-   print("Valor Menor que 7")
-print("O Valor é,", Soma)
+    print('idoso')
 
+# Captação de input com media de uma nota
+valor1 = float(input("Digite 1 valor"))
+valor2 = float(input("Digite 2 valor"))
+media = (valor1+valor2)/2
+if media > 7:
+    print('Aprovado!',media)
+elif media < 5:
+    print('Reprovado!',media)
+else:
+    print('Em Recuperação',media)
 #Competição
 # Crie um software que você entre com dois numero aleatórios e apresente em tela a subração desses 2 numeros
 #N1= int(input("Digite o 1 numero?"))
@@ -74,3 +81,19 @@ print("O Valor é,", Soma)
 #idade = int(input("Digite o idade"))
 #end = input("Digite o endereço")
 #print(nome,idade,end)
+
+
+#Crie um algoritmo que controle as permissoes do um usuario
+# Se for admin permita a entrada como administrador
+# Se for user permita entrada como usuario
+# caso nenhum dos dois negue suas entradas dizendo senha invalida para acesso
+
+
+# Captação de input com senha de usuario
+senha = str(input("Digite a senha de entrada"))
+if (senha == "admin"):
+    print("Olá administrador")
+elif (senha == "user"):
+    print("Olá usuario")
+else:
+   print("Acesso negado. Verifique sua senha")
