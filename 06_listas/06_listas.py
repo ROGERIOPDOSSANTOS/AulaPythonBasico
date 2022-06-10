@@ -1,37 +1,25 @@
-# Código utilizado no livro Aprenda Python Básico - Rápido e Fácil de entender, de Felipe Galvão
-# Mais informações sobre o livro: http://felipegalvao.com.br/livros
-
-# Capítulo 6: Listas
-
-# Definindo as primeiras listas
+# Capítulo 6: Listas # Definindo as primeiras listas
 alunos = ["José", "João", "Luiz"]
 notas = [8.5, 9.2, 6.7]
 print(alunos)
 print(notas)
 lista_vazia = []
 print(lista_vazia)
-
 # Lista com itens de diferentes tipos
 lista_misturada = [12, 15.56, "Sorveteria", ["Baunilha", "Chocolate"]]
 print(lista_misturada)
-
 # Acessando elementos das listas
 print(alunos[0])
 print(notas[2])
-
-print(alunos[-1])
-print(alunos[-3])
-
 # Modificando elementos de uma lista
 print(notas)
 notas[2] = 7.7
 print(notas)
 
-# Adicionando itens a uma lista
+# Adicionando itens a uma lista append, extend, remove
 print(alunos)
 alunos.append('Alfredo')
 print(alunos)
-
 print(alunos)
 alunos.insert(1, "Daniela")
 print(alunos)
@@ -44,8 +32,6 @@ print(alunos)
 alunos1 = ['José', 'Daniel', 'João']
 alunos2 = ['Maria', 'Ana', 'Carolina']
 print(alunos1 + alunos2)
-
-print(notas*2)
 
 # Removendo itens da lista
 print(alunos)
@@ -64,16 +50,13 @@ alunos = ['José', 'Denis', 'Daniela', 'Carla', 'Carlos', 'Augusto', 'Denis']
 print(alunos)
 alunos.remove('Denis')
 print(alunos)
-
 # Slicing de listas - pegar partes da lista baseado em intervalos definidos
 print(alunos)
 print(alunos[0:2])
 print(alunos[2:4])
 print(alunos[2:5])
-
 print(alunos[:3])
 print(alunos[3:])
-
 print(alunos[1:-1])
 print(alunos[2:-2])
 

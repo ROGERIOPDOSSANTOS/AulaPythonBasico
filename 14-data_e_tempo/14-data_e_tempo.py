@@ -1,6 +1,3 @@
-# Código utilizado no livro Aprenda Python Básico - Rápido e Fácil de entender, de Felipe Galvão
-# Mais informações sobre o livro: http://felipegalvao.com.br/livros
-
 # Capítulo 14: Data e Tempo
 
 # Importar a classe date, do módulo datetime, usada para trabalhar com datas

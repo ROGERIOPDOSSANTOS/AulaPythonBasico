@@ -1,6 +1,3 @@
-# Código utilizado no livro Aprenda Python Básico - Rápido e Fácil de entender, de Felipe Galvão
-# Mais informações sobre o livro: http://felipegalvao.com.br/livros
-
 # Capítulo 15: Exceções
 
 print("Vamos dividir dois números inseridos por você\n")

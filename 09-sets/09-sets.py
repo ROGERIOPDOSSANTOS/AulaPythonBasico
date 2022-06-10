@@ -1,6 +1,3 @@
-# Código utilizado no livro Aprenda Python Básico - Rápido e Fácil de entender, de Felipe Galvão
-# Mais informações sobre o livro: http://felipegalvao.com.br/livros
-
 # Capítulo 9: Sets
 
 # Criando nossos primeiros sets

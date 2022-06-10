@@ -1,5 +1,4 @@
 # Capítulo Strings
-
 # Definindo as primeiras strings
 string1 = "Oi Python"
 string2 = 'Tchau Python'
@@ -43,7 +42,6 @@ print("Tenho %d anos" % idade)
 # Inserindo e formatando decimais em strings
 a = 30.46257
 print("Formatando decimais: %f" % a)
-
 print("Formatando decimais: %.2f" % a)
 print("Formatando decimais: %.3f" % a)
 
@@ -62,32 +60,20 @@ print(string9[21])
 string10 = "olá, meu NOME é Felipe"
 print(string10.capitalize())
 print(string10.upper())
+print(string10.lower())
 
 # Exemplo da função center()
 string11 = "olá, meu nome é Felipe"
 print(string11.center(50,"*"))
-
-# Exemplo da função find
-string12 = "Olá, meu nome é Felipe"
-substring1 = "meu"
-print(string12.find(substring1))
-substring2 = "José"
-print(string12.find(substring2))
-
-print(string12.find(substring1, 7))
-print(string12.find(substring1, 2))
-
 # Funções isalnum, isalpha e isnumeric
 string13 = "Felipe"
 print(string13.isalnum())
 print(string13.isalpha())
 print(string13.isnumeric())
-
 string14 = "1234"
 print(string14.isalnum())
 print(string14.isalpha())
 print(string14.isnumeric())
-
 string15 = "Felipe1234"
 print(string15.isalnum())
 print(string15.isalpha())
@@ -101,7 +87,8 @@ print(len(string16))
 string17 = "Olá, meu nome é Felipe"
 print(string17.replace("Felipe","José"))
 
-# Funções strip, rstrip e lstrip: removem espaços nas extremidades ou à esquerda ou à direita da string
+# Funções strip, rstrip e lstrip: removem espaços nas extremidades ou à
+# esquerda ou à direita da string
 string18 = "   Olá, meu nome é Felipe      "
 print(string18)
 print(string18.strip())
