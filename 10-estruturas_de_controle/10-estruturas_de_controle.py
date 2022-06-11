@@ -139,3 +139,6 @@ while True:
     break
   else:
     print("Olá, %s" % nome)
+    print ("Olá, %d" % idade)
+
+
