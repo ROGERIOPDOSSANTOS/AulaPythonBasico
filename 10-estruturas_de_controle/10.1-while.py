@@ -29,7 +29,6 @@ while escolha == True:
     if escolha > 6:
         print("Opção inválida, digite novamente")
         continue
-
     dist = float(input("Digite a distância a ser convertida:"))
 
     if escolha == 1:
@@ -50,3 +49,21 @@ while escolha == True:
     elif escolha == 6:
         print(kiltocent(dist), "centimentros")
         break
+
+print("Confirmação de senha")
+senha1 = input("Digite a senha: ")
+senha2 = input("Confirme a senha: ")
+while senha1 != senha2:
+    print("Senha errada, digite novamente.")
+    senha1 = input("Digite a senha: ")
+    senha2 = input("Confirme a senha: ")
+print("senha confirmada, parabéns!")
+
+#Faça um programa em Python que leia n números inteiros a partir do teclado,
+# até que o usuário digite 0. Ao final, mostre a soma de todos os números digitados
+total=0
+numero=int(input("Digite um número: "))
+while numero != 0:
+    total+=numero
+    numero=int(input("Digite um número:: "))
+print("Soma dos números= ",total)
