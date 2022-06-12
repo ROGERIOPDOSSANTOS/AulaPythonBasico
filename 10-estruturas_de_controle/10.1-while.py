@@ -67,3 +67,45 @@ while numero != 0:
     total+=numero
     numero=int(input("Digite um número:: "))
 print("Soma dos números= ",total)
+
+
+# Define a lista
+nums = []
+# O laço será executado enquanto o tamanho da lista nums for menor que 4
+while len(nums) < 4:
+    # Pede ao usuário uma entrada e a armazena em uma variável como número inteiro.
+    user_input = int(input("Insira um número inteiro: "))
+    # Se a entrada for um número par, é adicionada à lista
+    if user_input % 2 == 0:
+        nums.append(user_input)
+
+#A primeira linha define um laço while True - enquanto for verdadeira
+# que será executado indefinidamente até que uma instrução break seja encontrada
+while True:
+  numero = int(input("Entre com numero inteiro:"))
+  if numero % 2 != 0:
+      print("O numero é Impar")
+      break
+  else:
+     print("O numero é Par")
+
+operacao = input("Digite a operação (soma, sub, mult, div). Digite sair para encerrar: ")
+while operacao != 'sair':
+  n1 = input("Digite o primeiro numero: ")
+  n2 = input("Digite o segundo numero: ")
+
+  if operacao == "soma":
+    resultado = int(n1) + int(n2)
+    print("O resultado da soma é: %d" %resultado)
+    operacao = input ("Digite a operação (soma, sub, mult, div). Digite sair para encerrar: ")
+  elif operacao == "sub":
+    resultado = int(n1) - int(n2)
+  elif operacao == "mult":
+    resultado = int(n1) * int(n2)
+  elif operacao == "div":
+    resultado = int(n1) / int(n2)
+
+  else:
+    resultado = "operador não suportado, use soma, sub, mult ou div."
+  print("O resultado da operação é: " + str(resultado))
+  print("---------------------------------------")
