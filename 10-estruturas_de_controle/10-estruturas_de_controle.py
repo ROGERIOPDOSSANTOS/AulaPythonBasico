@@ -1,5 +1,50 @@
 # Capítulo 10: Estruturas de Controle - Repetição While e For
 
+for c in rangel(1,10)
+  print(c)
+print('Fim')
+
+c = 1
+while c < 10:
+  print(c)
+print(c)
+
+#sei onde começa e termina
+for c in range(1,3):
+  n = int(input('Digite um valor'))
+print('Fim')
+
+n=1
+while n != 0:
+    n = int (input ('Digite um valor'))
+print ('Fim')
+
+#laços indeterminados
+r='S'
+while r == 'S':
+    n = int (input ('Digite um valor'))
+    r = str (input ('Quer Continuar[S/N]')).upper() #upper forcar para maiscula
+print ('Fim')
+
+n = 1
+par = impar = 0
+while n != 0:
+    n = int(input('Digite um valor'))
+    #if n != 0:
+        if n % 2 == 0:
+             par += 1
+        else:
+             impar +=1
+print('Voce Digitou %d numeros pares e %d numeros impares'%(par,impar))
+
+
+
+
+
+
+
+
+
 # Primeira estrutura de controle: If
 nome = input("Digite aqui seu nome: ")
 
@@ -141,4 +186,4 @@ while True:
     print("Olá, %s" % nome)
     print ("Olá, %d" % idade)
 
-
+while
